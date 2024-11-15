@@ -26,4 +26,4 @@ print(r.end_of_arm.get_joint('wrist_yaw').status['pos']) # radians
 print(r.end_of_arm.get_joint('wrist_yaw').soft_motion_limits['hard']) 
 # "collision" is used by Stretch Body's self collision avoidance algorithm to set software limits on the joint.
 # "user" is used by you, the user, to set application specific software joint limits. "hard" is the hardware limits of the joint. 
-# And "current" is the aggregate of the previous three limits into the final limits enforced by the software.
+# And "current" is the aggregate of the previous three limits into the final limits enforced by the software
